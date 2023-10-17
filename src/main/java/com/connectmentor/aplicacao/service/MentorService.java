@@ -17,4 +17,8 @@ public class MentorService {
 			return "redirect:index";
 		}
 
+	public void salvarMentor(Mentor mentor) {
+        mentorRepository.save(mentor);
+    }
+	
 }
