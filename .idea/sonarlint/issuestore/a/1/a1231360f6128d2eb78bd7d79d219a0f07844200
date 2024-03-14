@@ -1,0 +1,11 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ó¦é¨ã1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ó¦é¨ã1
+^
+java:S1854>"ARemove this useless assignment to local variable "savedFileName".(¤ãÈÜ8ý¦é¨ã1
+O
+java:S1481>"2Remove this unused "savedFileName" local variable.(¤ãÈÜ8ˆ§é¨ã1
+p
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.ModelAttribute'.(®ùæé8§é¨ã1

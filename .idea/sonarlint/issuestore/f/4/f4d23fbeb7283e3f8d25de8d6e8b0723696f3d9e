@@ -1,0 +1,12 @@
+
+k
+java:S2095%"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ªò®—8›ßÓèŞ1
+O
+java:S1135/"2Complete the task associated to this TODO comment.(‡ò¼û8´ßÓèŞ1
+p
+java:S4042D"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ë“«øÿÿÿÿ8ÔßÓèŞ1
+L	java:S106E"+Replace this use of System.out by a logger.(²æˆÍûÿÿÿÿ8×ßÓèŞ1
+L	java:S106G"+Replace this use of System.out by a logger.(Í›æûÿÿÿÿ8ÚßÓèŞ1
+G	java:S106J"+Replace this use of System.out by a logger.(Ï¨ÿ8İßÓèŞ1
+L	java:S106X"+Replace this use of System.out by a logger.(©ê–õüÿÿÿÿ8åßÓèŞ1
+L	java:S106Z"+Replace this use of System.out by a logger.(ı¤êöıÿÿÿÿ8æßÓèŞ1
