@@ -27,7 +27,7 @@ const buscarMentorButton = document.getElementById('buscarMentorButton');
 
 const redirectToEncontrarMentor = () => {
   // Redirecionar para a página "encontrarMentor.html" (ou outra página desejada)
-  window.location.href = 'encontrarMentor';
+  window.location.href = '/encontrarMentor';
 };
 
 buscarMentorButton.addEventListener('click', redirectToEncontrarMentor);

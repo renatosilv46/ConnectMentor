@@ -170,7 +170,15 @@ public class MentoradoController {
 				mv.setViewName("encontrarMentor");
 				return mv;
 			}
+		 
 	
+		 @GetMapping("/sidebar")
+			public ModelAndView sidebar() {
+
+				ModelAndView mv = new ModelAndView();
+				mv.setViewName("sidebar");
+				return mv;
+			}
 	
 	
 	
