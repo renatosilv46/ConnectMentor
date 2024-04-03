@@ -12,6 +12,7 @@ import jakarta.persistence.Table;
 public class MentoradoPretensao {
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
+<<<<<<< HEAD
 @Column(name = "id_mentorado_pretensao")
 private Long idMentoradoPretensao;
 @ManyToOne
@@ -19,6 +20,15 @@ private Long idMentoradoPretensao;
 private Mentorado mentorado;
 @ManyToOne
 @JoinColumn(name = "id_pretensao")
+=======
+@Column(name = "idMentoradoPretensao")
+private Long idMentoradoPretensao;
+@ManyToOne
+@JoinColumn(name = "idMentorado")
+private Mentorado mentorado;
+@ManyToOne
+@JoinColumn(name = "idPretensao")
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
 private Pretensao pretensao;
 //Constructors
 public MentoradoPretensao() {

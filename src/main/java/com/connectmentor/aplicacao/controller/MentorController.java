@@ -1,5 +1,6 @@
 package com.connectmentor.aplicacao.controller;
 
+<<<<<<< HEAD
 import java.io.IOException;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -122,4 +123,43 @@ public class MentorController {
 			return "erro";
 		}
 	}
+=======
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+
+import com.connectmentor.aplicacao.entity.Mentor;
+import com.connectmentor.aplicacao.service.MentorService;
+
+
+
+@Controller	
+@RequestMapping("/")
+public class MentorController {
+	
+	@Autowired
+	private MentorService service;
+	
+
+	@GetMapping("perfilmentorado")
+	public ModelAndView perfilMentorado() {
+		
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("perfilMentorado");
+		return mv;	
+	
+}
+	 @PostMapping("/inserirMentorados")
+	    public String salvarMentor(@ModelAttribute Mentor mentor) {
+	        service.salvarMentor(mentor);
+	        return "sucesso";
+	    }
+	
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
 }

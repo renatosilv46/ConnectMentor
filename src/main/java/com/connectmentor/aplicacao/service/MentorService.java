@@ -1,5 +1,6 @@
 package com.connectmentor.aplicacao.service;
 
+<<<<<<< HEAD
 // Importações necessárias
 import java.io.IOException;
 import java.util.Optional;
@@ -76,4 +77,27 @@ public class MentorService {
 			mentorRepository.save(mentor);
 		}
 	}
+=======
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.connectmentor.aplicacao.entity.Mentor;
+import com.connectmentor.aplicacao.repository.MentorRepository;
+
+@Service
+public class MentorService {
+	
+	@Autowired
+	private MentorRepository mentorRepository;
+	
+	public String insHabMentor(Mentor mentor) {
+			this.mentorRepository.save(mentor);
+			return "redirect:index";
+		}
+
+	public void salvarMentor(Mentor mentor) {
+        mentorRepository.save(mentor);
+    }
+	
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
 }
