@@ -13,11 +13,27 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ConnectMentor</name>
 	<description>ConnectMentor</description>
+<<<<<<< HEAD
 
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 
+=======
+<<<<<<< HEAD
+
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+
+=======
+	
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
+>>>>>>> 64f229c850283574f4a3e52660693edd3a9c0d74
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -27,7 +43,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+		
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
+>>>>>>> 64f229c850283574f4a3e52660693edd3a9c0d74
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -40,12 +64,24 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+		
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
+>>>>>>> 64f229c850283574f4a3e52660693edd3a9c0d74
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 64f229c850283574f4a3e52660693edd3a9c0d74
 
 		<dependency>
 			<groupId>org.springframework.security</groupId>
@@ -57,23 +93,47 @@
 			<artifactId>spring-security-web</artifactId>
 		</dependency>
 
+<<<<<<< HEAD
+=======
+=======
+		
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
+>>>>>>> 64f229c850283574f4a3e52660693edd3a9c0d74
 			<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+		
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
+>>>>>>> 64f229c850283574f4a3e52660693edd3a9c0d74
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 64f229c850283574f4a3e52660693edd3a9c0d74
 		<dependency>
 
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
 		</dependency>
 
+<<<<<<< HEAD
+=======
+=======
+		
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
+>>>>>>> 64f229c850283574f4a3e52660693edd3a9c0d74
 
 	</dependencies>
 

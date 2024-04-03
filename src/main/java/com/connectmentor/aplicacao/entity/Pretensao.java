@@ -12,7 +12,10 @@ public class Pretensao {
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 @Column(name = "idPretensao")
 private Long idPretensao;
+<<<<<<< HEAD
 private String nomePretensao;
+=======
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
 //Constructors
 public Pretensao() {
 	
@@ -27,6 +30,7 @@ public Pretensao() {
 	public Long getIdPretensao() {
 		return idPretensao;
 	}
+<<<<<<< HEAD
 	
 	public void setIdPretensao(Long idPretensao) {
 		this.idPretensao = idPretensao;
@@ -37,6 +41,11 @@ public Pretensao() {
 	}
 	
 	
+=======
+	public void setIdPretensao(Long idPretensao) {
+		this.idPretensao = idPretensao;
+	}
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
 	
 	
 	

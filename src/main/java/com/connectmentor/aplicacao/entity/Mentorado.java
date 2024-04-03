@@ -1,13 +1,22 @@
 package com.connectmentor.aplicacao.entity;
 import java.io.Serializable;
 import java.util.Date;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+<<<<<<< HEAD
 
 @Entity
+=======
+import jakarta.persistence.Table;
+@Entity
+@Table(name="Mentorado")
+>>>>>>> 9d724b30d64a5a16f09b2d17ea263a6d4f85ab1b
 public class Mentorado implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
