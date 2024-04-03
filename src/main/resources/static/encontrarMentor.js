@@ -1,7 +1,4 @@
-// https://bytewebster.com/
-// https://bytewebster.com/
-// https://bytewebster.com/
-
+// Inicialização do Swiper
 var swiper = new Swiper(".swiper", {
   effect: "coverflow",
   grabCursor: true,
@@ -20,4 +17,23 @@ var swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
     clickable: true
   }
+});
+
+// Event listener para o clique no ícone de hambúrguer
+document.getElementById("menu-toggle").addEventListener("click", function() {
+  // Ajusta a largura do sidebar para torná-lo visível
+  document.getElementById("sidebar").style.width = "250px";
+});
+
+// Event listener para o clique no sidebar para fechá-lo
+document.getElementById("sidebar").addEventListener("click", function() {
+  // Define a largura do sidebar de volta para 0 para escondê-lo
+  this.style.width = "0";
+});
+
+// Alternância de visibilidade do sidebar usando jQuery
+$(document).ready(function() {
+  $("#menu-toggle").click(function() {
+    $("#sidebar").toggle();
+  });
 });

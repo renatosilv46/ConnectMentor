@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";>
+    <link rel="stylesheet" href="../editarperfil.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Perfil Mentorado</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="profile-container">
+            <div class="img-container">
+                <img src="" alt="profile image">
+                <input type="file" id="image-upload" accept="image/*" style="display: none;">
+            </div>
+
+            <button class="go-back" onclick="redirectToAnotherPage()">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+
+            <button class="change-photo" id="change-photo-button">
+            <i class="fas fa-camera"></i>
+            </button>
+
+            <button class="edit-name" id="edit-name-button">
+                <i class="fas fa-pencil-alt"></i>  
+            </button>
+
+            <button class="save-button" id="save-button">
+                Salvar
+            </button>
+
+            <p class="info full-name"></p>
+            <p class="info role"><i class="fas fa-star"></i></p>
+            <p class="info place"><i class="fas fa-map-marker-alt"></i></p>
+
+            <div class="posts-info">
+                <p><span>36</span> Sessões</p>
+                <p><span>40</span> Match</p>
+                <p><span>15</span> Skills</p>
+            </div>
+
+            <div class="social-container">
+                <button class="youtube">
+                    <i class="fab fa-youtube"></i>
+                </button>
+                <button class="linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </button>
+                <button class="instagram">
+                    <i class="fab fa-instagram"></i>
+                </button>
+                <button class="github">
+                    <i class="fab fa-github"></i>
+                </button>
+            </div>
+
+            <button class="action" onclick="togglePretensions()">Pretensões</button>
+
+            <ul id="pretensions-list" class="hidden">
+               <form method="post" action="/inserirPretensoes">
+                <li>
+					<input type="text" id="idMentorado" name="idMentorado">
+                    
+                    <input type="checkbox" name="idPretensao" value="1">
+                    <label for="pretension1">Desenvolvimento WEB</label>
+                   </li>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li>
+                    <input type="checkbox" name="idPretensao" value="2">
+                    <label for="pretension2">&nbsp;Data Science</label>
+                </li>
+                &nbsp;&nbsp;&nbsp;
+                <li>
+                    <input type="checkbox" name="idPretensao" value="3">
+                    <label for="pretension3">&nbsp;Cloud Computing</label>
+                </li>
+                &nbsp;&nbsp;&nbsp;
+                <li>
+                    <input type="checkbox" name="idPretensao" value="4">
+                    <label for="pretension3">&nbsp;Redes</label>
+                </li>
+                &nbsp;&nbsp;&nbsp;
+               <li>
+				   <input type="submit" value="Salvar Pretensões" class="button-pretensions">
+				   
+			   </li>
+                
+            </ul>
+            
+</form>	
+        </div>
+    </div>
+
+  
+</body>
+</html>
