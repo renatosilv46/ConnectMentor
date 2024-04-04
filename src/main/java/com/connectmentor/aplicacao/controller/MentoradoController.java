@@ -81,7 +81,7 @@ public class MentoradoController {
 	}
 	
 	
-	
+	//Setando view no endpoint;
 	@GetMapping("editarperfil/{idMentorado}")
 	public ModelAndView editarperfil(@PathVariable Long idMentorado) {
 
